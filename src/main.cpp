@@ -1,5 +1,9 @@
 #include <iostream>
 
+#ifndef PCH_OFF
+#include "union_find.hpp"
+#endif
+
 const char* msg_ok = "There's connection";
 const char* msg_fail = "There is not connection"; 
 
