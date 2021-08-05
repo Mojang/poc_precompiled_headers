@@ -9,7 +9,6 @@ ENDIF()
 
 IF(PCH_OFF)
     message(STATUS "Precompiled header is ON")
-    add_compile_definitions(PCH_OFF)
 ENDIF()
 
 TARGET_INCLUDE_DIRECTORIES( ${PROJECT_NAME}
